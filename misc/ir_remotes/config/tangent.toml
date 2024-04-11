@@ -1,0 +1,31 @@
+
+[[protocols]]
+name = "Tangent" # Tangent Ampster BT II
+protocol = "nec"
+variant = "nec-x"
+
+[protocols.scancodes]
+0x6f800 = "KEY_POWER"
+0x6f801 = "KEY_EJECTCD"
+0x6f802 = "KEY_VOLUMEUP"
+0x6f803 = "KEY_LEFT"
+0x6f804 = "KEY_ENTER"
+0x6f805 = "KEY_RIGHT"
+0x6f806 = "KEY_VOLUMEDOWN"
+0x6f807 = "KEY_BLUETOOTH"
+0x6f808 = "KEY_SAT" # DAB
+0x6f809 = "KEY_RADIO"
+0x6f80a = "KEY_CD"
+0x6f80b = "KEY_TUNER"
+0x6f80c = "KEY_AUX"
+0x6f80d = "KEY_PLAYPAUSE"
+0x6f80e = "KEY_INFO"
+0x6f80f = "KEY_PREVIOUS"
+0x6f810 = "KEY_STOP"
+0x6f811 = "KEY_NEXT"
+0x6f812 = "KEY_1"
+0x6f813 = "KEY_2"
+0x6f814 = "KEY_3"
+0x6f815 = "KEY_4"
+0x6f816 = "KEY_5"
+0x6f817 = "KEY_6"

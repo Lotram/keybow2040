@@ -1,0 +1,21 @@
+
+[[protocols]]
+name = "FeinTech VSW04202"
+protocol = "nec"
+variant = "nec"
+
+[protocols.scancodes]
+0x11f = OFF
+0x15c = ON
+0x11b = 1
+0x11a = 2
+0x102 = 3
+0x10d = 4
+0x11e = KEY_UP
+0x10a = KEY_DOWN
+0x112 = 2CH
+0x111 = 5.1CH
+0x110 = PASS
+0x10e = SPDIF
+0x10c = ARC
+0x10f = Auto

@@ -1,0 +1,5 @@
+downloads/
+keybow/lib/adafruit
+.vscode/
+.pdm-python
+pdm.lock

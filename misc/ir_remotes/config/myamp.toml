@@ -1,0 +1,21 @@
+[[protocols]]
+name = "MyAmp"
+protocol = "rc5"
+
+[protocols.scancodes]
+
+0x1001 = AN1
+0x1002 = AN2
+0x1003 = AN3
+0x1004 = USB
+0x1005 = OP
+0x1006 = CO
+0x1007 = bluetooth
+0x100c = KEY_POWER
+0x100d = KEY_MUTE
+0x1010 = KEY_VOLUMEUP
+0x1011 = KEY_VOLUMEDOWN
+0x1038 = BTC
+
+
+POWER ROW = +879 -882 +1784 -1740 +1782 -872 +896 -871 +888 -877 +893 -873 +899 -867 +891 -1751 +893 -871 +1774 -881 +887 # timeout 22626

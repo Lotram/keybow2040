@@ -1,0 +1,45 @@
+
+[[protocols]]
+name = "BenQ W2000+"
+protocol = "nec"
+variant = "nec-x"
+
+[protocols.scancodes]
+
+0x3004 = "KEY_VIDEO_PREV" # source
+0x300b = "KEY_UP"
+0x300c = "KEY_DOWN"
+0x300d = "KEY_LEFT"
+0x300e = "KEY_RIGHT"
+0x300f = "KEY_ROOT_MENU"
+0x3014 = "KEY_MUTE"
+0x3015 = "KEY_OK"
+0x3021 = KEY_PLAYPAUSE
+0x304e = "KEY_POWER"
+0x304f = "KEY_POWER" # ON
+
+0x3082 = "KEY_VOLUMEUP"
+0x3083 = "KEY_VOLUMEDOWN"
+0x3085 = "BTN_BACK" # back menu
+0x30a4 = "KEY_BACK"
+0x30a5 = "KEY_FORWARD"
+0x30a6 = "KEY_PREVIOUSSONG"
+0x30a7 = "KEY_NEXTSONG"
+0x30aa = "KEY_STOPCD"
+
+# others
+0x308d = 3D
+0x301b = PIP
+0x3008 = AUTO
+0x309d = INVERT
+0x3012 = SWAP
+0x3007 = ECO BLANK
+0x302a = KEYSTONE
+0x3010 = MODE
+0x3016 = BRIGHT
+0x305b = COLOR MANAGE
+0x305d = FINE KEY_TUNE
+0x305e = GAMMA
+0x305f = COLOR TEMP
+0x307e = SHARP
+0x3011 = CONTRAST

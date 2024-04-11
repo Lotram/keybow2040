@@ -1,0 +1,63 @@
+# NOTE: you have to use single-quoted strings in TOML for regular expressions.
+# It's the equivalent of r-strings in Python.  Multiline strings are treated as
+# verbose regular expressions by Black.  Use [ ] to denote a significant space
+# character.
+
+[tool.black]
+line-length = 88
+include = '\.pyi?$'
+exclude = '''
+/(
+  | \.git
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | buck-out
+  | build
+  | dist
+  | tests/data
+)/
+'''
+
+[tool.isort]
+profile="black"
+lines_after_imports = 2
+
+[tool.pdm]
+[[tool.pdm.source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[tool.pdm.dev-dependencies]
+dev = []
+[pyright]
+typeCheckingMode = "off"
+
+[project]
+# PEP 621 project metadata
+# See https://www.python.org/dev/peps/pep-0621/
+requires-python = ">=3.10"
+dependencies = [
+    "ipython",
+    "black",
+    "isort",
+    "adafruit-blinka",
+    "flake8",
+    "adafruit-python-shell",
+    "adafruit-circuitpython-mcp9808",
+    "invoke",
+    "adafruit-circuitpython-irremote",
+    "adafruit-circuitpython-itertools",
+    "adafruit-circuitpython-is31fl3731",
+    "adafruit-circuitpython-typing",
+    "adafruit-circuitpython-hid",
+    "ruff>=0.3.5",
+    "install",
+    "numpy",
+    "adafruit-circuitpython-display-text",
+    "adafruit-circuitpython-displayio-ssd1306",
+    "adafruit-circuitpython-displayio-layout",
+    "adafruit-circuitpython-bitmap-font",
+    "adafruit-blinka-displayio",
+]
